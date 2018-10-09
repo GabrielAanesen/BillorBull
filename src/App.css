@@ -63,9 +63,9 @@ img {
 .questions p {
   padding-left: 70px;
   padding-right: 70px;
-  font-size: 10px;
+  font-size: 13px;
   text-align: center;
-  width: 200px;
+  width: 400px;
 }
 
 .questions img {
@@ -137,4 +137,9 @@ img {
 .headline p {
   font-family: 'Akkurat Pro';
   font-style: normal;
+  font-size: 20px;
+}
+
+.headline h1 {
+  font-size: 48px;
 }
