@@ -1,32 +1,140 @@
+@font-face {
+  font-family: 'AkkuratBoldBold';
+  font-style: BoldBold;
+}
+
+body {
+  font-family: 'AkkuratBoldBold';
+  font-style: BoldBold;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+  width: 100vw;
+  background-color: #1A1A1A;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.q1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1A1A1A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.q1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+img {
+  width: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.steffe {
+  transform: rotate(-28deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.jimmie {
+  transform: rotate(15deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.jimmie:hover {
+  transform:scale(1.1)rotate(5deg);
+}
+
+.steffe:hover {
+  transform:scale(1.1)rotate(-5deg);
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+}
+
+.questions p {
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.questions img {
+  width: 90px;
+}
+
+.nextButton {
+  background-color: #DFAA9A;
+  border-radius: 5px;
+  font-size: 10px;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.shareButton {
+  background-color: #4267B2;
+  border-radius: 5px;
+  font-size: 10px;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.start {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 50px;
+  width: 180px;
+  background-color: #DFAA9A;
+  margin-top: 20px;
+}
+
+.startText {
+  font-family: 'Harriet Display';
+  font-style: bold;
+  width: 38%;
+  text-align: center;
+}
+
+.right {
+ margin-bottom: 100px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline p {
+  font-family: 'Akkurat Pro';
+  font-style: normal;
 }
