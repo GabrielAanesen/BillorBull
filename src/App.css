@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'AkkuratBoldBold';
   font-style: BoldBold;
+  src: url('/fonts/akkurat-bold.ttf');
 }
 
 body {
