@@ -4,6 +4,12 @@
   src: url('/fonts/akkurat-bold.ttf');
 }
 
+@font-face {
+  font-family: 'Harriet Display';
+  font-style: BoldBold;
+  src: url('/fonts/harriet_display_bold-webfont.ttf');
+}
+
 body {
   font-family: 'AkkuratBoldBold';
   font-style: BoldBold;
@@ -64,7 +70,7 @@ img {
 .questions p {
   padding-left: 70px;
   padding-right: 70px;
-  font-size: 13px;
+  font-size: 18px;
   text-align: center;
   width: 400px;
 }
@@ -82,6 +88,7 @@ img {
   align-items: center;
   justify-content: center;
   display: flex;
+  cursor: pointer;
 }
 
 .shareButton {
@@ -115,11 +122,13 @@ img {
   width: 180px;
   background-color: #DFAA9A;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .startText {
-  font-family: 'Harriet Display';
+  font-family: 'AkkuratBoldBold';
   font-style: bold;
+  font-size: 24px;
   width: 38%;
   text-align: center;
 }
@@ -138,9 +147,14 @@ img {
 .headline p {
   font-family: 'Akkurat Pro';
   font-style: normal;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .headline h1 {
+  font-size: 48px;
+}
+
+.start > h1 {
+  font-family: 'Harriet Display';
   font-size: 48px;
 }
